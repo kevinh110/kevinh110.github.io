@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)file:///C:/Users/huang/kevinh110.github.io/rekindle/Game%20Design%20Initiative%20at%20Cornell.html -->
+<html class="no-js" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./rekindle_page_files/analytics.js.download" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="./rekindle_page_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./rekindle_page_files/iconochive.css">
+
+	
+    <title>Game Design Initiative at Cornell</title>
+    
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    
+    <link rel="stylesheet" href="./rekindle_page_files/darkmode.css">
+	
+    
+    <link rel="stylesheet" href="./rekindle_page_files/gamelanding.css">
+    
+    <link rel="stylesheet" href="./rekindle_page_files/font-awesome.min.css">
+
+	
+</head>
+
+    <body><div class="content">
+	
+
+
+2020
+<div class="top">
+  <img src="./rekindle_page_files/banner.png" alt="Game cover image" class="center">
+  <div class="top-text-content">
+	<div class="title_and_buttons">
+	  <div class="gamename">
+		<h1>Rekindle</h1>
+	  </div>
+	  
+	  <div class="buttons">
+	  	<button type="button" onclick="window.location.href=&#39;Rekindle.Win.zip&#39;;">Windows</button>
+		<button type="button" onclick="window.location.href=&#39;Rekindle.Mac.zip&#39;;">MacOS</button>
+		<button type="button" onclick="window.location.href=&#39;quickstart.png&#39;;">Guide</button>
+		
+	  </div>
+	  
+	</div>
+	<p>In a world long gone dark, harness the light of fireflies to purify  the lost souls roaming Earth.</p>
+
+	<p>Violent lost souls roam an Earth long gone dim. Armed only with fireflies, a former 
+household robot Lux will put itself in harm’s way to vanquish the world’s darkness. 
+Lux must purify the souls by provoking and luring them into the fireflies’ light, 
+all while avoiding destruction by the very souls it is trying to save.</p>
+
+<p><strong>Mac Users</strong>: This group’s release has the security manager bug that causes it to
+crash on first launch.  See the <a href="https://web.archive.org/web/20200617064942/http://en-ci-gdiac.coecis.cornell.edu/macos">MacOS Support</a> page for how to resolve
+this.</p>
+
+  </div>
+</div>
+<div class="video_info_team">
+      <div class="video_info_team_left">
+        <h3>Game Media</h3>
+        
+        <div class="videoimg">
+        <video width="100%" height="auto" poster="/web/20200617064942im_/http://en-ci-gdiac.coecis.cornell.edu/gallery/rekindle/header.png" controls="">
+        	<source src="/web/20200617064942im_/http://en-ci-gdiac.coecis.cornell.edu/gallery/rekindle/trailer.mp4" type="video/mp4">
+			This video is not supported by your browser.
+		</video>
+        </div>
+        
+      </div>
+  <div class=" video_info_team_right">
+	<table style="width:100%">
+	  <tbody><tr>
+		<th>Genre</th>
+		<td>light-and-shadow, stealth</td>
+	  </tr>
+	  <tr>
+		<th>Course</th>
+		<td>CS/INFO 3152</td>
+	  </tr>
+	  <tr>
+		<th>Engine</th>
+		<td>LibGDX</td>
+	  </tr>
+	  <tr>
+		<th>Submitted</th>
+		<td>21 May 2020</td>
+	  </tr>
+	  <tr>
+		<th>Last Tested</th>
+		<td>22 May 2020</td>
+	  </tr>
+	  <tr>
+		<th><img class="studiologo" src="./rekindle_page_files/logo.png" alt="Unclear Studios"></th>
+		<td><span style="color:white;">Unclear Studios</span>
+		  <ul>
+		    <li>Sophie Zheng</li>
+		    <li>Megan Rochlin</li>
+		    <li>Sungmin Kim</li>
+		    <li>Aiden Yeonsuk Kim</li>
+		    <li>Ava Cohen</li>
+		    <li>Calvin Woo</li>
+		    <li>Emeka Ubakanma</li>
+		    <li>Kevin Huang</li>
+		    
+		  </ul>
+		</td>
+	  </tr>
+	</tbody></table>
+  </div>
+</div>
+<div class="screenshot_gallery">
+  
+  
+  <img class="screenshot" src="./rekindle_page_files/screenshot1.png" alt="Game screenshot 1">29
+  
+  <img class="screenshot" src="./rekindle_page_files/screenshot2.png" alt="Game screenshot 1">30
+  
+  <img class="screenshot" src="./rekindle_page_files/screenshot3.png" alt="Game screenshot 1">31
+  
+  <img class="screenshot" src="./rekindle_page_files/screenshot4.png" alt="Game screenshot 1">32
+  
+  <img class="screenshot" src="./rekindle_page_files/screenshot5.png" alt="Game screenshot 1">33
+  
+</div>
+
+	</div>
+
+<!-- Scripts for navigation -->
+<!-- Scripts for navigation -->
+<script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content*/
+    var dropdown = document.getElementsByClassName("dropbtn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+
+    // Close all dropdowns when user clicks outside of dropdown element
+    document.addEventListener("click", (evt) => {
+        const navElement = document.getElementById("myNavbar");
+        let targetElement = evt.target; // clicked element
+
+        do {
+            if (targetElement == navElement) {
+                // This is a click inside. Do nothing, just return.
+                // document.getElementById("flyout-debug").textContent = "Clicked inside!";
+                return;
+            }
+            // Go up the DOM
+            targetElement = targetElement.parentNode;
+        } while (targetElement);
+
+        // This is a click outside.
+        closeDrops();
+    });
+
+    // Close all open dropdowns 
+    function closeDrops() {
+        var dropdownContents = document.getElementsByClassName("dropdown-content");
+        var i;
+
+        for (i = 0; i < dropdownContents.length; i++) {
+            dropdownContents[i].style.display = "none";
+        }
+    }
+
+    // Close all dropdowns on screen change
+    window.onresize = closeDrops;
+
+    /* Add "responsive" class to nav when user clicks on the icon */
+    function goMobile() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+</script>
+
+<!--
+     FILE ARCHIVED ON 06:49:42 Jun 17, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:57:05 Feb 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 173.036
+  exclusion.robots: 0.199
+  exclusion.robots.policy: 0.189
+  RedisCDXSource: 12.339
+  esindex: 0.006
+  LoadShardBlock: 128.678 (3)
+  PetaboxLoader3.datanode: 95.697 (4)
+  CDXLines.iter: 28.93 (3)
+  PetaboxLoader3.resolve: 79.059 (2)
+  load_resource: 85.017
+--></body></html>
